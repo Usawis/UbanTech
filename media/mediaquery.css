@@ -1,0 +1,446 @@
+/* =======start of media query======== */
+
+@media (min-width:375px){
+
+  .herosec{
+    padding-top: 3.5em;
+  }
+
+  .about-contents{
+    padding-left: 3em;
+  }
+
+  .input{
+    width: 320px;
+  }
+
+  .comment{
+    width: 320px;
+  }
+
+  .flex3{
+    margin-top: 1.4em;
+  }
+}
+
+@media  (min-width:404px){
+
+    .about-contents{
+      width: 17em;
+      word-wrap: break-word;
+      font-size: 17px;
+      padding-left: 3em;
+      line-height: 1.5em;
+    }
+}
+
+@media  (min-width:440px){
+/* ========header section===== */
+    .space{
+        font-size: 17.6px;
+    }
+
+    .herosec .p{
+        /* width: 160px */
+   }
+
+    /* services sec */
+
+    .sec_2 h4{
+        font-size: 18.2px;
+    }
+
+    /* bout sec */
+
+    .about h4{
+        font-size: 17.6px;
+    }
+
+    .about-contents{
+        padding-left: 2.5em;
+        word-wrap: break-word;
+        width: 19em;
+        line-height: 1.5em;
+        font-size: 18.2px;
+    }
+
+
+    /* testimonial sec */
+
+    .test h4{
+        font-size: 18.2px;
+    }
+
+    /* ======contact sec======= */
+
+    .intouch h4{
+        font-size: 18.2px;
+    }
+    .con3{
+        padding-left: 1em;
+        padding-top: 1.4em;
+    }
+    .input{
+        width: 350px;
+    }
+    .comment{
+        width: 350px;
+    }
+}
+
+/* ========media screen 480======== */
+
+@media  (min-width:480px){
+    /* =======bout sec====== */
+
+    .about-contents{
+        padding-left: 3.5em;
+    }
+
+    /* =======contact sec========= */
+    .input{
+        width: 400px;
+    }
+    .comment{
+        width: 400px;
+    }
+}
+
+/* media screen 576 */
+
+@media  (min-width:576px){
+    /* =======hero sec====== */
+
+    .p{
+        width: 300px;
+    }
+
+    /* =======services sec======= */
+
+    .sec_2 h4{
+        font-size: 18px;
+    }
+
+    /* bout sec */
+
+    .about h4{
+        font-size: 18px;
+    }
+    .about-contents{
+        padding-left: 6.2em;
+    }
+
+    /*  ============testimonial sec========= */
+
+    .test h4{
+        font-size: 18px;
+    }
+
+    /* contact sec */
+
+    .intouch h4{
+        font-size: 18px;
+    }
+
+    .input{
+        width: 500px;
+    }
+    .comment{
+        width: 500px;
+    }
+}
+
+/* =========media screen 768=========== */
+
+@media  (min-width:768px){
+
+
+  .herosec p{
+    font-size: 25px;
+    width: 350px;
+  }
+
+    /* =====services sec====== */
+
+    .grand{
+        /* display: flex; */
+        /* justify-content: space-around; */
+        /* align-items: center; */
+    }
+
+    .con2{
+        display: flex;
+    }
+
+    .flex{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+    .box{
+        width: 18em;
+    }
+    
+
+    /* ---------bout us--------- */
+
+    .about-contents{
+        padding-left: 11.5em;
+    }
+
+    /* ========testimonial sec========= */
+
+    .flex1{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+    .bod{
+        width: 18em;
+    }
+    .con1{
+        display: flex;
+    }
+
+    /* =====contact sec======= */
+
+    .con3{
+        padding-left: 7.5em;
+    }
+    .info-us{
+        width: 500px;
+    }
+    .us{
+        padding-left: 7.5em;
+    }
+}
+
+/* ========media screen 1024======== */
+
+@media(min-width:1024px){
+
+    .herosec{
+        height: 29em;
+        padding-left: 3em;
+    }
+
+    .herosec p{
+        font-size: 29px;
+        width: 450px;
+        font-weight: bold;
+        padding-top: 5em;
+    }
+
+    .flex{
+        width: 100em;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+
+    .box{
+        margin-left: 1em;
+        width: 17em;
+    }
+
+    .sec_2{
+        height: 20.6em;
+    }
+
+    .about-contents{
+        padding-left: 18.5em;
+    }
+
+    .flex1{
+        width: 100em;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+
+    .bod{
+        width: 17em;
+        margin-left: 1em;
+    }
+
+    .flex3{
+        display: flex;
+    }    
+
+    .con3{
+      padding-left: 2em;
+    }
+
+    .input{
+        width: 330px;
+    }
+    .comment{
+        width: 330px;
+    }
+
+    .info-us{
+        width: 350px;
+        padding: 5px;
+        margin-top: 1em;
+    }
+    .us{
+        margin-top: 23px;
+        margin-right: 1.5em;
+
+    }     
+
+}
+
+
+/* ===========media screen 1200=========== */
+
+@media (min-width:1200px){
+    .herosec{
+        height: 37em;
+        padding-left: 3em;
+    }
+
+    .herosec p{
+        font-size: 44px;
+        width: 600px;
+        font-weight: bold;
+        padding-top: 3.6em;
+    }
+
+    .herosec div{
+        padding-top: 4em;
+    }
+
+    .space h4{
+        font-size: 20px;
+    }
+
+    #bars{
+        display: none;
+    }
+
+    #navC{
+        display: block;
+    }
+
+    ul li{
+        list-style-type: none;
+        display: inline-block;
+        padding: 0px 20px;
+        font-size: 17px
+    }
+
+    header{
+        display: flex;
+        /* align-items: center; */
+        justify-content: space-between;
+        height: 5.5em;
+    }
+
+    nav ul{
+        padding-top: 0px;
+        margin-right: 0em;
+    }
+
+    /* services sec */
+
+    .flex{
+        width: 100em;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+
+    .box{
+        margin-left: 2em;
+        /* margin-right: 1em */
+    }
+
+    .sec_2{
+        height: 20.6em;
+    }
+
+    /* bout sec */
+
+    .about{
+        margin-top: 4em;
+        padding: 4em;
+    }
+
+    .about-contents{
+        padding-left: 19.6em;
+    }
+
+    /* testimonial sec */
+
+    .flex1{
+        width: 100em;
+        justify-content: space-evenly;
+    }
+
+    /* contact sec */
+
+    .intouch h4{
+        font-size: 19px;
+    }
+
+    .flex3{
+        display: flex;
+    }
+
+    .input{
+        width: 350px;
+    }
+    .comment{
+        width: 350px;
+    }
+
+    .info-us{
+        width: 350px;
+        padding: 5px;
+        margin-top: 1em;
+    }
+    .us{
+        /* padding-right: 9em; */
+        margin-top: 23px;
+    }
+}
+
+/* media screen 1366 */
+
+@media (min-width:1366px){
+ 
+    .about-contents{
+        padding-left: 19.4em;
+        font-size: 21.3px;
+    }
+
+    .about h4{
+        font-size: 20px;
+    }
+
+    .flex3{
+        display: flex;
+    }
+
+    .us{
+        padding-right: 17em;
+        margin-top: 23px;
+    }
+
+    .con3{
+        padding-left: 10em;
+    }
+
+    .test h4{
+        font-size: 20px;
+    }
+
+    .intouch h4{
+        font-size: 20px;
+    }
+}

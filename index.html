@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>UbanTech.org</title>
+    <link rel="stylesheet" href="media/mediaquery.css"/>
+    <link rel="stylesheet" href="css/css/all.min.css"/>
+
+    <script>
+      function hideMenu() {
+  var show = document.getElementById('navC');
+  var buger = document.getElementById('bars');
+  var close = document.getElementById("toogleClose");
+  close.style.display = 'block';
+  show.style.display = 'block';
+  buger.style.display =' none';
+}
+
+function showBuger() {
+  var close = document.getElementById("toogleClose");
+  var buger = document.getElementById('bars')
+  var show = document.getElementById('navC');
+  show.style.display = 'none';
+  close.style.display = 'none';
+  buger.style.display =' block';
+
+}
+    </script>
+
+        
+</head>
+<body>
+
+    <!-- header section -->
+  <div class="container">
+    <header>
+
+      <div class="space">
+
+        <h4>UbanTech<span style="color: #3bec38;">.</span>.</h4>
+
+        <div>
+          <i class="fa fa-bars" id='bars' onclick="hideMenu()"></i>
+          <i class="toogleClose" id="toogleClose" onclick="showBuger()">&times;</i>
+        </div>
+      </div>
+
+
+      <nav id="navC">
+
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="#learn">Services</li></a>
+          <li><a href='#bout'>About</a></li>
+          <li><a href='#monial'>Testimonial</a></li>
+          <li><a href="#getInTouch">Contact-Us</a></li>
+        </ul>
+
+      </nav>
+
+    </header>
+  </div>
+
+   
+        <!-- =========== -->
+        <!-- hero section -->
+        <section class="herosec">
+
+          <div>
+             <h3></h3>
+             <p class="p">With Us You Are Guaranteed The Best
+             </p>
+              <a href="#learn"><button class="btn">Learn More</button></a>
+          </div>
+        </section>
+
+        <!-- services section -->
+        
+        <section class="sec_2" id="learn">
+          
+          <h4>OUR SERVICES</h4>
+          <div class="line-it">
+            <div class="line"></div>
+          </div>
+
+          
+          <div class="con2">
+            <div class="flex">
+              <div class="box">
+                <img src="images/webdesign.svg" width="150px" alt="web dev./design">
+                <h5>Web Development and Design</h5>
+                <p>Nunvarius fringilla nisl. Duis pretium mi euismod erat. Maecenas id augue.vulputate. Duis a quam non
+                  lesuada.</p>
+              </div>
+
+              <div class="box">
+                <img src="images/photodesign.svg" height="76px" alt="graphics design" >
+                <h5>Graphic Design</h5>
+                <p>Nunvarius fringilla nisl. Duis pretium mi euismod erat. Maecenas id augue.vulputate. Duis a quam non
+                  lesuada.</p>
+              </div>
+
+              <div class="box">
+                <i class="fa fa-mobile" id="mobile"></i>
+                <h5>Mobile App Development</h5>
+                <p>Nunvarius fringilla nisl. Duis pretium mi euismod erat. Maecenas id augue.vulputate. Duis a quam non
+                  lesuada.</p>
+              </div>
+            </div>
+          </div>
+        
+
+        </section>
+
+        <!-- about sec -->
+        <section class="about" id="bout">
+          <h4>WHAT WE ARE</h4>
+          <div class="line-it">
+            <div class="line"></div>
+          </div>
+
+          <div class="about-contents">
+            <p>UbanTechnologies is a professional online organisation that 
+              offers you the best for your money. We have a team of experts that work tiredlessy to guarantee you the best</p>
+          </div>
+        </section>
+
+        <!-- testimonial section -->
+        <section class="test" id="monial">
+          <h4>TESTIMONIALS</h4>
+          <div class="line-it">
+            <div class="line"></div>
+          </div>
+          <div class="con1">
+            <div class="flex1">
+              <div class="bod">
+                <img src="images/pic03.jpg" alt="Avinash Kr" width="45%" class="pic">
+                <p>&#8220;Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi voluptatem odit laboriosam officiis. Quaerat reprehenderit&rdquo;</p>
+                <h6>Avinash Kr</h6>
+              </div>
+
+              <div class="bod">
+                <img src="images/pic05.jpg" alt="Annabel Kent" width="45%" class="pic">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi voluptatem odit laboriosam officiis. Quaerat reprehenderit</p>
+                <h6>Annabel Kent </h6>
+              </div>
+
+              <div class="bod">
+                <img src="images/pic04.jpg" alt="Bharat Kunal" width="45%" class="pic">
+                <p>&#8220;Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi voluptatem odit laboriosam officiis. Quaerat reprehenderit&rdquo;</p>
+                <h6>Bharat Kunal</h6>
+              </div>
+              
+            </div>     
+          </div>
+        </section>
+
+        <!-- -------contact section----------- -->
+        <footer class="intouch" id="getInTouch">
+          <h4>GET IN TOUCH</h4>
+          <div class="line-it">
+            <div class="line"></div>
+          </div>
+          <div class="flex3">
+            <div class="con4">
+              <div class="con3">
+              <input type="text" name="username" required="required" placeholder="Your name" class="input">
+              <input type="tel" name="username" required="required" placeholder="Phone no." class="input">
+              <input type="email" name="email" required="required" placeholder="Email id" class="input">
+              <textarea name="Comments" rows="4" placeholder="Your Message" class="comment"></textarea>
+              <div class="button">
+              <button class="btn1"><a href="mailto:triplespy793@gmail.com" >SEND MESSAGE</a></button>
+              </div>
+              </div>
+            </div>
+              <div class="us">
+                <div class="info-us"><b>Phone:</b><i class="fa fa-phone"></i>+234 8071134467</div>
+              
+
+              <div class="info-us"><b>Email:</b><i class="fa fa-envelope"></i>UbanTech@gmail.com</div>
+              
+
+              <div class="info-us"><label><b>Get Social:</b></label>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-google-play"></i></a>
+              </div>
+            </div>
+        
+            </div>
+          </div>
+        </footer>
+
+          <!-- ------footer------ -->
+        <footer class="footer1">
+          <div class="foot">
+            <p>&REG; 2020 UbanTechnologies</p>
+          </div>
+        </footer>
+        <!-- ---------footer end-------- -->
+      
+</body>
+</html>
