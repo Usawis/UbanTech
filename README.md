@@ -1,3 +1,3 @@
-#Ubantech
+Ubantech
 
 This is Uban Technologies
