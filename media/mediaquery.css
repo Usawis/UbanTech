@@ -21,11 +21,6 @@
   .flex3{
     margin-top: 1.4em;
   }
-}
-
-@media  (min-width:278px){
-  
-}
 
 @media  (min-width:404px){
 
@@ -35,6 +30,28 @@
       font-size: 17px;
       padding-left: 3em;
       line-height: 1.5em;
+    }
+}
+
+@media  (min-width:430px){
+    .about-contents{
+        padding-left: 3.9em;
+    }
+
+    .box{
+        width: 19em;
+    }
+
+    .bod{
+        width: 19em;
+    }
+    
+    .input{
+        width: 370px;
+    }
+
+    .comment{
+        width: 370px;
     }
 }
 
